@@ -1,0 +1,11 @@
+{
+    "name": "Reports",
+    "alias": "reports",
+    "description": "Order reporting module — demonstrates nWidart modular architecture, Livewire 3+, Alpine.js, and REST API.",
+    "keywords": ["reports", "orders", "livewire", "alpine"],
+    "priority": 0,
+    "providers": [
+        "Modules\\Reports\\app\\Providers\\ReportsServiceProvider"
+    ],
+    "files": []
+}

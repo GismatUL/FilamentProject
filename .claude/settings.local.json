@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(C:/laragon/bin/php/php-8.2.27-nts-Win32-vs16-x64/php.exe artisan *)",
+      "Bash(grep -r \"registerAutoloading\\\\|addPsr4\\\\|Modules\\\\\\\\\\\\\\\\\" C:/laragon/www/filamentProject/vendor/nwidart/laravel-modules/src/LaravelModulesServiceProvider.php)",
+      "Bash(grep -rn \"Modules\\\\\\\\\\\\\\\\\\\\|module_path\\\\|getPath\" C:/laragon/www/filamentProject/vendor/nwidart/laravel-modules/src/Laravel/LaravelFileRepository.php)",
+      "Bash(C:/laragon/bin/php/php-8.2.27-nts-Win32-vs16-x64/php.exe composer.phar dump-autoload)",
+      "Bash(composer dump-autoload *)",
+      "Bash(C:/laragon/bin/php/php-8.2.27-nts-Win32-vs16-x64/php.exe C:/composer/composer.phar dump-autoload)"
+    ]
+  }
+}
